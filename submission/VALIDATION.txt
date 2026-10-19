@@ -1,0 +1,14 @@
+QADAM VALIDATION — 2026-10-19 UTC
+
+Automated: npm test — 10 passed / 0 failed.
+Data: 186 unique OSM POIs; valid Astana coordinates and source URLs.
+Browser: tested default architecture, coffee, EXPO, add-to-route, map rendering.
+Local HTTP: / and /api/status respond 200.
+Gemini: user's server-side key loaded without exposing value. /api/generate returned mode=gemini with retrieved OSM sourceIds; browser displayed real Gemini response for EXPO.
+Model: gemini-2.5-flash, temperature 0.2, no thinking budget. Key remains local in ignored .env.
+Hosted static preview: Sites deployment succeeded. Owner-private. Baseline mode only.
+Slides: PDF visually verified; PowerPoint contains high-resolution raster slides.
+
+Not verified: real walking routes, real-time hours, actual venue accessibility, mobile device GPS, airport transfers, Gemini robustness at scale.
+The included video is a silent screenshot walkthrough of the running app, not a complete narrated screen recording.
+YouTube upload not completed; account upload and submission link remain with the team.

@@ -1,0 +1,96 @@
+{
+  "fetchedAt": "2026-10-19T18:39:35.734Z",
+  "attempts": [
+    {
+      "endpoint": "https://api.openstreetmap.org/api/0.6/map.json?bbox=71.42200000000001,51.123,71.438,51.133",
+      "success": true,
+      "elements": 11474
+    },
+    {
+      "endpoint": "https://api.openstreetmap.org/api/0.6/map.json?bbox=71.396,51.126999999999995,71.41199999999999,51.137",
+      "success": true,
+      "elements": 7541
+    },
+    {
+      "endpoint": "https://api.openstreetmap.org/api/0.6/map.json?bbox=71.41000000000001,51.123,71.426,51.133",
+      "success": true,
+      "elements": 9433
+    },
+    {
+      "endpoint": "https://api.openstreetmap.org/api/0.6/map.json?bbox=71.434,51.123,71.44999999999999,51.133",
+      "success": true,
+      "elements": 15912
+    },
+    {
+      "endpoint": "https://api.openstreetmap.org/api/0.6/map.json?bbox=71.415,51.102999999999994,71.431,51.113",
+      "success": true,
+      "elements": 5084
+    },
+    {
+      "endpoint": "https://api.openstreetmap.org/api/0.6/map.json?bbox=71.40700000000001,51.085,71.423,51.095000000000006",
+      "success": true,
+      "elements": 13673
+    },
+    {
+      "endpoint": "https://api.openstreetmap.org/api/0.6/map.json?bbox=71.396,51.082,71.41199999999999,51.092000000000006",
+      "success": true,
+      "elements": 6676
+    },
+    {
+      "endpoint": "https://api.openstreetmap.org/api/0.6/map.json?bbox=71.405,51.092999999999996,71.42099999999999,51.103",
+      "success": true,
+      "elements": 8180
+    },
+    {
+      "endpoint": "https://api.openstreetmap.org/api/0.6/map.json?bbox=71.462,51.113,71.478,51.123000000000005",
+      "success": true,
+      "elements": 7070
+    },
+    {
+      "endpoint": "https://api.openstreetmap.org/api/0.6/map.json?bbox=71.455,51.119,71.47099999999999,51.129000000000005",
+      "success": true,
+      "elements": 9834
+    },
+    {
+      "endpoint": "https://api.openstreetmap.org/api/0.6/map.json?bbox=71.42200000000001,51.154999999999994,71.438,51.165",
+      "success": true,
+      "elements": 8853
+    },
+    {
+      "endpoint": "https://api.openstreetmap.org/api/0.6/map.json?bbox=71.412,51.160999999999994,71.428,51.171",
+      "success": true,
+      "elements": 6160
+    },
+    {
+      "endpoint": "https://api.openstreetmap.org/api/0.6/map.json?bbox=71.418,51.166999999999994,71.434,51.177",
+      "success": true,
+      "elements": 6544
+    },
+    {
+      "endpoint": "https://api.openstreetmap.org/api/0.6/map.json?bbox=71.43,51.15,71.446,51.160000000000004",
+      "success": true,
+      "elements": 7633
+    },
+    {
+      "endpoint": "https://api.openstreetmap.org/api/0.6/map.json?bbox=71.41300000000001,51.137,71.429,51.147000000000006",
+      "success": true,
+      "elements": 8419
+    },
+    {
+      "endpoint": "https://api.openstreetmap.org/api/0.6/map.json?bbox=71.43,51.111,71.446,51.121",
+      "success": true,
+      "elements": 7214
+    }
+  ],
+  "rawElements": 331,
+  "namedPois": 186,
+  "categoryCounts": {
+    "cafe": 123,
+    "landmark": 35,
+    "mall": 7,
+    "museum": 6,
+    "park": 14,
+    "playground": 1
+  },
+  "query": "[out:json][timeout:35];(\n  nwr[amenity=cafe](51.07,71.36,51.19,71.5);\n  nwr[leisure~\"^(park|playground)$\"](51.07,71.36,51.19,71.5);\n  nwr[tourism~\"^(museum|attraction|viewpoint|artwork)$\"](51.07,71.36,51.19,71.5);\n  nwr[shop=mall](51.07,71.36,51.19,71.5);\n  nwr[historic~\"^(monument|memorial)$\"](51.07,71.36,51.19,71.5);\n  nwr[amenity=exhibition_centre](51.07,71.36,51.19,71.5);\n  nwr[museum=future](51.07,71.36,51.19,71.5);\n);out center tags;"
+}

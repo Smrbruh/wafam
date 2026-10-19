@@ -1,0 +1,5175 @@
+{
+  "meta": {
+    "source": "OpenStreetMap official map API (Overpass fallback)",
+    "endpoint": "https://api.openstreetmap.org/api/0.6/map.json",
+    "mapBoxes": [
+      [
+        71.42200000000001,
+        51.123,
+        71.438,
+        51.133
+      ],
+      [
+        71.396,
+        51.126999999999995,
+        71.41199999999999,
+        51.137
+      ],
+      [
+        71.41000000000001,
+        51.123,
+        71.426,
+        51.133
+      ],
+      [
+        71.434,
+        51.123,
+        71.44999999999999,
+        51.133
+      ],
+      [
+        71.415,
+        51.102999999999994,
+        71.431,
+        51.113
+      ],
+      [
+        71.40700000000001,
+        51.085,
+        71.423,
+        51.095000000000006
+      ],
+      [
+        71.396,
+        51.082,
+        71.41199999999999,
+        51.092000000000006
+      ],
+      [
+        71.405,
+        51.092999999999996,
+        71.42099999999999,
+        51.103
+      ],
+      [
+        71.462,
+        51.113,
+        71.478,
+        51.123000000000005
+      ],
+      [
+        71.455,
+        51.119,
+        71.47099999999999,
+        51.129000000000005
+      ],
+      [
+        71.42200000000001,
+        51.154999999999994,
+        71.438,
+        51.165
+      ],
+      [
+        71.412,
+        51.160999999999994,
+        71.428,
+        51.171
+      ],
+      [
+        71.418,
+        51.166999999999994,
+        71.434,
+        51.177
+      ],
+      [
+        71.43,
+        51.15,
+        71.446,
+        51.160000000000004
+      ],
+      [
+        71.41300000000001,
+        51.137,
+        71.429,
+        51.147000000000006
+      ],
+      [
+        71.43,
+        51.111,
+        71.446,
+        51.121
+      ]
+    ],
+    "license": "ODbL 1.0",
+    "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+    "attribution": "© OpenStreetMap contributors",
+    "attributionUrl": "https://www.openstreetmap.org/copyright",
+    "fetchedAt": "2026-10-19T18:39:35.734Z",
+    "osmBaseTimestamp": null,
+    "bbox": [
+      51.07,
+      71.36,
+      51.19,
+      71.5
+    ],
+    "count": 186,
+    "categoryCounts": {
+      "cafe": 123,
+      "landmark": 35,
+      "mall": 7,
+      "museum": 6,
+      "park": 14,
+      "playground": 1
+    },
+    "deduplication": "Exact published name aliases within 50 metres, same category; richer OSM record retained.",
+    "descriptionMethod": "Deterministic Russian text from OSM tags; no unverified enrichment.",
+    "limitations": [
+      "OSM coverage and opening hours may be incomplete or outdated.",
+      "Way/relation coordinates are geometry centers, not verified entrances.",
+      "Noise levels, power outlets, prices, current events and live opening status are not verified."
+    ],
+    "query": "[out:json][timeout:35];(\n  nwr[amenity=cafe](51.07,71.36,51.19,71.5);\n  nwr[leisure~\"^(park|playground)$\"](51.07,71.36,51.19,71.5);\n  nwr[tourism~\"^(museum|attraction|viewpoint|artwork)$\"](51.07,71.36,51.19,71.5);\n  nwr[shop=mall](51.07,71.36,51.19,71.5);\n  nwr[historic~\"^(monument|memorial)$\"](51.07,71.36,51.19,71.5);\n  nwr[amenity=exhibition_centre](51.07,71.36,51.19,71.5);\n  nwr[museum=future](51.07,71.36,51.19,71.5);\n);out center tags;"
+  },
+  "pois": [
+    {
+      "id": "osm-node-12973341171",
+      "name": "Аяшка",
+      "lat": 51.1589176,
+      "lon": 71.428777,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/12973341171",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "name": "Аяшка"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-4457713697",
+      "name": "Бакы",
+      "lat": 51.1529809,
+      "lon": 71.444764,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/4457713697",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "name": "Бакы",
+        "name:kk": "Бакы"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-5883365485",
+      "name": "Белый дом",
+      "lat": 51.1419656,
+      "lon": 71.4206292,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Адрес: Қарасақал Ерімбет көшесі, 14А.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/5883365485",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "addr:housenumber": "14А",
+        "addr:street": "Қарасақал Ерімбет көшесі",
+        "amenity": "cafe",
+        "name": "Белый дом"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-6678039485",
+      "name": "Буфет",
+      "lat": 51.1159366,
+      "lon": 71.4310825,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "buschenschank",
+        "breakfast",
+        "cake",
+        "internet_access"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: buschenschank, breakfast, cake. Интернет в источнике: wlan. Наличие розеток не подтверждено.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/6678039485",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "cuisine": "buschenschank;breakfast;cake",
+        "internet_access": "wlan",
+        "name": "Буфет",
+        "name:en": "Bufet",
+        "name:kk": "Буфетъ"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-4133836392",
+      "name": "Дастаркан",
+      "lat": 51.1235526,
+      "lon": 71.4219552,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Адрес: Сығанақ көшесі, 10.",
+      "openingHours": "24/7",
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/4133836392",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "addr:housenumber": "10",
+        "addr:street": "Сығанақ көшесі",
+        "amenity": "cafe",
+        "name": "Дастаркан",
+        "opening_hours": "24/7"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-2671060739",
+      "name": "Дастархан",
+      "lat": 51.1284084,
+      "lon": 71.4174565,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/2671060739",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "name": "Дастархан"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-12917093975",
+      "name": "Дружба",
+      "lat": 51.1630938,
+      "lon": 71.4210911,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/12917093975",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "indoor_seating": "yes",
+        "name": "Дружба",
+        "outdoor_seating": "no"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-6408255389",
+      "name": "завтрак бар",
+      "lat": 51.0941798,
+      "lon": 71.4093574,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/6408255389",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "name": "завтрак бар"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-12919520489",
+      "name": "Зеленая чашка",
+      "lat": 51.1726842,
+      "lon": 71.4198338,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "coffee_shop"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: coffee_shop.",
+      "openingHours": "Mo-Su 07:30-22:00",
+      "wheelchair": "no",
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/12919520489",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "indoor_seating": "yes",
+        "name": "Зеленая чашка",
+        "opening_hours": "Mo-Su 07:30-22:00",
+        "outdoor_seating": "no",
+        "wheelchair": "no"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-2671060738",
+      "name": "Избушка",
+      "lat": 51.1283377,
+      "lon": 71.4180466,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "wheelchair"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": "yes",
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/2671060738",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "name": "Избушка",
+        "wheelchair": "yes"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-2680126093",
+      "name": "Кавказкая пленница",
+      "lat": 51.1556914,
+      "lon": 71.4429696,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/2680126093",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "name": "Кавказкая пленница"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-13162002025",
+      "name": "Кофе И Часы",
+      "lat": 51.1555081,
+      "lon": 71.4350332,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/13162002025",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "check_date": "2025-09-22",
+        "name": "Кофе И Часы"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-12959449801",
+      "name": "Культура Диктует",
+      "lat": 51.1246776,
+      "lon": 71.4219553,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Адрес: Сығанақ көшесі, 33.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/12959449801",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "addr:housenumber": "33",
+        "addr:street": "Сығанақ көшесі",
+        "amenity": "cafe",
+        "name": "Культура Диктует"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-way-1449317691",
+      "name": "Лепим и варим",
+      "lat": 51.132337050000004,
+      "lon": 71.40334435,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "russian"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: russian.",
+      "openingHours": "Mo-Su 10:00-23:00",
+      "wheelchair": null,
+      "website": "https://lepimivarim.ru",
+      "phone": "+7 707 180 7400",
+      "source": "https://www.openstreetmap.org/way/1449317691",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "contact:phone": "+7 707 180 7400",
+        "contact:website": "https://lepimivarim.ru",
+        "cuisine": "russian",
+        "indoor": "room",
+        "level": "3",
+        "name": "Лепим и варим",
+        "opening_hours": "Mo-Su 10:00-23:00"
+      },
+      "coordinateType": "geometry-center"
+    },
+    {
+      "id": "osm-node-12520559589",
+      "name": "Лепим и варим",
+      "lat": 51.1279246,
+      "lon": 71.4254505,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "russian"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: russian.",
+      "openingHours": "Mo-Su 10:00-22:00",
+      "wheelchair": null,
+      "website": "https://lepimivarim.ru",
+      "phone": "+7 707 180 7400",
+      "source": "https://www.openstreetmap.org/node/12520559589",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "contact:phone": "+7 707 180 7400",
+        "contact:website": "https://lepimivarim.ru",
+        "cuisine": "russian",
+        "name": "Лепим и варим",
+        "opening_hours": "Mo-Su 10:00-22:00"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-12520559591",
+      "name": "Лепим и варим",
+      "lat": 51.0891569,
+      "lon": 71.4078454,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "russian"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: russian.",
+      "openingHours": "Mo-Su 10:00-23:00",
+      "wheelchair": null,
+      "website": "https://lepimivarim.ru",
+      "phone": "+7 707 180 7400",
+      "source": "https://www.openstreetmap.org/node/12520559591",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "contact:phone": "+7 707 180 7400",
+        "contact:website": "https://lepimivarim.ru",
+        "cuisine": "russian",
+        "name": "Лепим и варим",
+        "opening_hours": "Mo-Su 10:00-23:00"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-6404769888",
+      "name": "Мадо",
+      "lat": 51.128348,
+      "lon": 71.4348209,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "coffee_shop"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: coffee_shop.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/6404769888",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "brand": "Mado",
+        "brand:kk": "Мадо",
+        "brand:ru": "Мадо",
+        "brand:wikidata": "Q17116336",
+        "cuisine": "coffee_shop",
+        "name": "Mado",
+        "name:kk": "Мадо",
+        "name:ru": "Мадо",
+        "takeaway": "yes"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-12101883884",
+      "name": "Манат",
+      "lat": 51.1706271,
+      "lon": 71.4147403,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": "no",
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/12101883884",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "check_date:opening_hours": "2024-09-01",
+        "indoor_seating": "yes",
+        "name": "Манат",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "no",
+        "wheelchair": "no"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-2638206825",
+      "name": "Мангал",
+      "lat": 51.1719293,
+      "lon": 71.4283431,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": "Mo-Su 13:00-24:00",
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/2638206825",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "name": "Мангал",
+        "opening_hours": "Mo-Su 13:00-24:00"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-5890018987",
+      "name": "Незнакомка",
+      "lat": 51.168938,
+      "lon": 71.4127041,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": "Mo-Su 12:00-00:00",
+      "wheelchair": "no",
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/5890018987",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "indoor_seating": "yes",
+        "name": "Незнакомка",
+        "opening_hours": "Mo-Su 12:00-00:00",
+        "outdoor_seating": "no",
+        "wheelchair": "no"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-14248748801",
+      "name": "Огонёк",
+      "lat": 51.1585857,
+      "lon": 71.4391802,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Адрес: улица Бараева, 16.",
+      "openingHours": "Mo-Su 12:00-01:00",
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/14248748801",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "addr:housenumber": "16",
+        "addr:street": "улица Бараева",
+        "amenity": "cafe",
+        "check_date": "2026-10-04",
+        "check_date:opening_hours": "2026-10-04",
+        "name:ru": "Огонёк",
+        "opening_hours": "Mo-Su 12:00-01:00"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-4207115191",
+      "name": "Пекарня Мишеля",
+      "lat": 51.1620143,
+      "lon": 71.4183997,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "french",
+        "internet_access"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: french. Интернет в источнике: wlan. Наличие розеток не подтверждено.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/4207115191",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "cuisine": "french",
+        "internet_access": "wlan",
+        "name": "Пекарня Мишеля"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-2558378540",
+      "name": "Рауан",
+      "lat": 51.1549488,
+      "lon": 71.4355469,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Адрес: переулок Ташенова, 8.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/2558378540",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "addr:housenumber": "8",
+        "addr:street": "переулок Ташенова",
+        "amenity": "cafe",
+        "name": "Виктория",
+        "name:ru": "Рауан"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-4499897795",
+      "name": "Рыба моей мечты",
+      "lat": 51.173011,
+      "lon": 71.419872,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/4499897795",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "indoor_seating": "yes",
+        "name": "Рыба моей мечты",
+        "outdoor_seating": "no"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-5878572885",
+      "name": "Семейное кафе бум",
+      "lat": 51.1041752,
+      "lon": 71.4278829,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/5878572885",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "name": "Семейное кафе бум"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-5244218857",
+      "name": "Сладкая Сказка",
+      "lat": 51.1597539,
+      "lon": 71.4293108,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "pizza",
+        "sushi"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: pizza, sushi.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/5244218857",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "cuisine": "pizza;sushi",
+        "name": "Сладкая Сказка"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-5890018687",
+      "name": "Столичная столовая",
+      "lat": 51.1648691,
+      "lon": 71.4146694,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "wheelchair"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": "yes",
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/5890018687",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "check_date:opening_hours": "2024-07-19",
+        "indoor_seating": "yes",
+        "name": "Столичная столовая",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "no",
+        "wheelchair": "yes"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-5864784588",
+      "name": "Сытый дядя",
+      "lat": 51.1569121,
+      "lon": 71.4440871,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/5864784588",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "name": "Сытный дядя",
+        "name:ru": "Сытый дядя"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-4108293490",
+      "name": "Тайказан",
+      "lat": 51.126424,
+      "lon": 71.4375196,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "regional",
+        "steak"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: regional, steak.",
+      "openingHours": "Mo-Su 08:00-5:00",
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/4108293490",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "cuisine": "regional;steak",
+        "name": "Тайказан",
+        "opening_hours": "Mo-Su 08:00-5:00"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-way-158630906",
+      "name": "Тамсан",
+      "lat": 51.163883850000005,
+      "lon": 71.42552334999999,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Адрес: Мұхтар Әуезов көшесі, 6/1.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/way/158630906",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "addr:city": "Астана",
+        "addr:country": "KZ",
+        "addr:housenumber": "6/1",
+        "addr:street": "Мұхтар Әуезов көшесі",
+        "amenity": "cafe",
+        "building": "yes",
+        "building:levels": "5",
+        "name": "Тамсан"
+      },
+      "coordinateType": "geometry-center"
+    },
+    {
+      "id": "osm-node-5864791090",
+      "name": "Толагай",
+      "lat": 51.1571673,
+      "lon": 71.4434131,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/5864791090",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "name": "Толагай"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-12917106289",
+      "name": "Точка",
+      "lat": 51.1641016,
+      "lon": 71.4207113,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "outdoor_seating"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. В источнике указаны места на открытом воздухе.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/12917106289",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "indoor_seating": "yes",
+        "name": "Точка",
+        "outdoor_seating": "yes"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-4853972122",
+      "name": "Фаттуш",
+      "lat": 51.1277607,
+      "lon": 71.4251746,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "lebanese",
+        "internet_access"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: lebanese. Интернет в источнике: wlan. Наличие розеток не подтверждено.",
+      "openingHours": "Mo-Su 10:00-23:00",
+      "wheelchair": null,
+      "website": null,
+      "phone": "+77017330010",
+      "source": "https://www.openstreetmap.org/node/4853972122",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "cuisine": "lebanese",
+        "email": "intelfoodkz@gmail.com",
+        "internet_access": "wlan",
+        "name": "Фаттуш",
+        "name:en": "Fattoush",
+        "opening_hours": "Mo-Su 10:00-23:00",
+        "operator": "ИП INTELFOOD (ИНТЕЛФУД)",
+        "phone": "+77017330010"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-4928350097",
+      "name": "Хиты ХХ века",
+      "lat": 51.1718642,
+      "lon": 71.4201598,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "wheelchair"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": "Tu-Su 19:00-06:00; Mo off",
+      "wheelchair": "yes",
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/4928350097",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "indoor_seating": "yes",
+        "name": "Хиты ХХ века",
+        "opening_hours": "Tu-Su 19:00-06:00; Mo off",
+        "outdoor_seating": "no",
+        "wheelchair": "yes"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-13760723564",
+      "name": "Чайхана",
+      "lat": 51.1410694,
+      "lon": 71.4200484,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/13760723564",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "name": "Чайхана"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-5889815192",
+      "name": "Чили гриль",
+      "lat": 51.1618003,
+      "lon": 71.419618,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/5889815192",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "name": "Чили гриль"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-2158757218",
+      "name": "Ямайка",
+      "lat": 51.1678676,
+      "lon": 71.4176932,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/2158757218",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "name": "Ямайка"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-5077232622",
+      "name": "Amore Mio",
+      "lat": 51.1692226,
+      "lon": 71.4184717,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": "no",
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/5077232622",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "check_date:opening_hours": "2025-07-02",
+        "indoor_seating": "yes",
+        "name": "Amore Mio",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "no",
+        "wheelchair": "no"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-12104352023",
+      "name": "bâoli",
+      "lat": 51.1256158,
+      "lon": 71.4669421,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/12104352023",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "name": "bâoli"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-13159247656",
+      "name": "Barista",
+      "lat": 51.127439,
+      "lon": 71.467212,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": "Mo-Su 08:00-22:00",
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/13159247656",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "name": "Barista",
+        "opening_hours": "Mo-Su 08:00-22:00"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-12973424137",
+      "name": "Basqur",
+      "lat": 51.1589752,
+      "lon": 71.4298841,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "coffee_shop"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: coffee_shop.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/12973424137",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "indoor_seating": "yes",
+        "name": "Basqur",
+        "outdoor_seating": "no"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-12917088083",
+      "name": "Baton coffee",
+      "lat": 51.1656088,
+      "lon": 71.4145469,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "coffee_shop",
+        "outdoor_seating"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: coffee_shop. В источнике указаны места на открытом воздухе.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/12917088083",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "indoor_seating": "yes",
+        "name": "Baton coffee",
+        "outdoor_seating": "yes"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-12744521222",
+      "name": "Boba",
+      "lat": 51.1637745,
+      "lon": 71.4170517,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "bubble_tea",
+        "wheelchair"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: bubble_tea.",
+      "openingHours": "Mo-Su 11:00-22:00",
+      "wheelchair": "yes",
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/12744521222",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "cuisine": "bubble_tea",
+        "indoor_seating": "yes",
+        "name": "Boba",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "outdoor_seating": "no",
+        "wheelchair": "yes"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-8121843217",
+      "name": "Boom Boom Room",
+      "lat": 51.1042147,
+      "lon": 71.4279429,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "barbecue",
+        "breakfast",
+        "burger",
+        "cake",
+        "chicken",
+        "coffee_shop",
+        "fish",
+        "internet_access"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: barbecue, breakfast, burger, cake, chicken, coffee_shop, fish. Интернет в источнике: wlan. Наличие розеток не подтверждено.",
+      "openingHours": "Mo-Su 10:00-23:00",
+      "wheelchair": null,
+      "website": null,
+      "phone": "+77080581111",
+      "source": "https://www.openstreetmap.org/node/8121843217",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "cuisine": "barbecue;breakfast;burger;cake;chicken;coffee_shop;fish",
+        "internet_access": "wlan",
+        "name:en": "Boom Boom Room",
+        "name:ru": "Boom Boom Room",
+        "opening_hours": "Mo-Su 10:00-23:00",
+        "phone": "+77080581111"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-12123373246",
+      "name": "Bubble Bob",
+      "lat": 51.1769882,
+      "lon": 71.4189841,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "bubble_tea"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: bubble_tea.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/12123373246",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "cuisine": "bubble_tea",
+        "indoor_seating": "yes",
+        "name": "Bubble Bob",
+        "outdoor_seating": "no"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-12098662467",
+      "name": "Canele",
+      "lat": 51.1013122,
+      "lon": 71.4146083,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Адрес: Гейдара Алиева, 2.",
+      "openingHours": "Mo-Su 09:00-22:00",
+      "wheelchair": null,
+      "website": "https://www.instagram.com/canele.kz/",
+      "phone": "+77027029911",
+      "source": "https://www.openstreetmap.org/node/12098662467",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "addr:housenumber": "2",
+        "addr:street": "Гейдара Алиева",
+        "amenity": "cafe",
+        "name": "Canele",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "phone": "+77027029911",
+        "website": "https://www.instagram.com/canele.kz/"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-12993945455",
+      "name": "Cappuccino",
+      "lat": 51.1432226,
+      "lon": 71.4191739,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "coffee_shop",
+        "outdoor_seating"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: coffee_shop. В источнике указаны места на открытом воздухе.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/12993945455",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "indoor_seating": "yes",
+        "name": "Cappuccino",
+        "outdoor_seating": "yes"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-12146103478",
+      "name": "Central pizza & coffee",
+      "lat": 51.1590561,
+      "lon": 71.4287385,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "coffee_shop",
+        "outdoor_seating"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: coffee_shop. В источнике указаны места на открытом воздухе.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/12146103478",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "indoor_seating": "yes",
+        "name": "Central pizza & coffee",
+        "outdoor_seating": "yes"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-5866018450",
+      "name": "Coffee Boom",
+      "lat": 51.1462371,
+      "lon": 71.418305,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "coffee_shop",
+        "outdoor_seating"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: coffee_shop. В источнике указаны места на открытом воздухе.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/5866018450",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "indoor_seating": "yes",
+        "name": "Coffee Boom",
+        "outdoor_seating": "yes"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-13333371893",
+      "name": "Coffee Boom",
+      "lat": 51.1326916,
+      "lon": 71.3991703,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "internet_access"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Интернет в источнике: yes. Наличие розеток не подтверждено.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/13333371893",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Coffee Boom"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-13159275054",
+      "name": "Coffee Boom",
+      "lat": 51.1269514,
+      "lon": 71.4693039,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/13159275054",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "name": "Coffee Boom"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-12809042306",
+      "name": "Coffee BOOM",
+      "lat": 51.1598435,
+      "lon": 71.4298138,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "coffee_shop",
+        "internet_access",
+        "wheelchair"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: coffee_shop. Интернет в источнике: wlan. Наличие розеток не подтверждено.",
+      "openingHours": "Mo-Su 08:00-23:00",
+      "wheelchair": "yes",
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/12809042306",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Coffee BOOM",
+        "opening_hours": "Mo-Su 08:00-23:00",
+        "outdoor_seating": "no",
+        "payment:kaspi_qr": "yes",
+        "payment:kaspi_red": "yes",
+        "wheelchair": "yes"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-12093500118",
+      "name": "Coffee BOOM",
+      "lat": 51.1761253,
+      "lon": 71.4181457,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "outdoor_seating",
+        "wheelchair"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. В источнике указаны места на открытом воздухе.",
+      "openingHours": "Mo-Su 08:00-24:00",
+      "wheelchair": "yes",
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/12093500118",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "indoor_seating": "yes",
+        "name": "Coffee BOOM",
+        "opening_hours": "Mo-Su 08:00-24:00",
+        "outdoor_seating": "yes",
+        "wheelchair": "yes"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-13125556689",
+      "name": "Coffee BOOM",
+      "lat": 51.1163017,
+      "lon": 71.4336184,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "coffee_shop"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: coffee_shop.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/13125556689",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "indoor_seating": "yes",
+        "name": "Coffee BOOM",
+        "outdoor_seating": "no"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-13125546428",
+      "name": "Coffee Day",
+      "lat": 51.1157233,
+      "lon": 71.4334022,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "coffee_shop"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: coffee_shop.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/13125546428",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "indoor_seating": "yes",
+        "name": "Coffee Day",
+        "outdoor_seating": "no"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-12135856708",
+      "name": "Coffee Hub",
+      "lat": 51.1639767,
+      "lon": 71.4175268,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "coffee_shop",
+        "outdoor_seating"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: coffee_shop. В источнике указаны места на открытом воздухе.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/12135856708",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "indoor_seating": "yes",
+        "name": "Coffee Hub",
+        "outdoor_seating": "yes"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-7569228633",
+      "name": "Coffee Like",
+      "lat": 51.1302666,
+      "lon": 71.4215615,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "coffee_shop"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Адрес: Қонаев көшесі, 6. Кухня в источнике: coffee_shop.",
+      "openingHours": "Mo-Fr 08:00-18:00",
+      "wheelchair": null,
+      "website": "https://coffee-like.com",
+      "phone": "+7 341 290-82-92;+7 800 333-41-30",
+      "source": "https://www.openstreetmap.org/node/7569228633",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "addr:city": "Астана",
+        "addr:housenumber": "6",
+        "addr:street": "Қонаев көшесі",
+        "amenity": "cafe",
+        "brand": "Coffee Like",
+        "brand:wikidata": "Q55662627",
+        "brand:wikipedia": "ru:Coffee Like",
+        "cuisine": "coffee_shop",
+        "name": "Coffee Like",
+        "opening_hours": "Mo-Fr 08:00-18:00",
+        "phone": "+7 341 290-82-92;+7 800 333-41-30",
+        "takeaway": "yes",
+        "website": "https://coffee-like.com"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-6494912582",
+      "name": "Coffee Like",
+      "lat": 51.1311886,
+      "lon": 71.4207674,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "coffee_shop"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: coffee_shop.",
+      "openingHours": "Mo-Fr 08:00-20:00",
+      "wheelchair": null,
+      "website": "https://coffee-like.com/",
+      "phone": "+7 341 2908292;+7 800 3334130",
+      "source": "https://www.openstreetmap.org/node/6494912582",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "brand": "Coffee Like",
+        "brand:wikidata": "Q55662627",
+        "brand:wikipedia": "ru:Coffee Like",
+        "contact:email": "hotline@coffee-like.com",
+        "contact:phone": "+7 341 2908292;+7 800 3334130",
+        "contact:website": "https://coffee-like.com/",
+        "cuisine": "coffee_shop",
+        "name": "Coffee Like",
+        "opening_hours": "Mo-Fr 08:00-20:00",
+        "operator": "South Union",
+        "takeaway": "yes"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-way-1333795504",
+      "name": "Coffee Original",
+      "lat": 51.1662235,
+      "lon": 71.42672285,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "coffee_shop",
+        "italian",
+        "internet_access"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: coffee_shop, italian. Интернет в источнике: wlan. Наличие розеток не подтверждено.",
+      "openingHours": "24/7",
+      "wheelchair": null,
+      "website": "https://coffee-original-7.kamiqr.com/menu/at-place/list",
+      "phone": null,
+      "source": "https://www.openstreetmap.org/way/1333795504",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "building": "commercial",
+        "building:levels": "1",
+        "cuisine": "coffee_shop;italian",
+        "height": "7",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Coffee Original",
+        "opening_hours": "24/7",
+        "website": "https://coffee-original-7.kamiqr.com/menu/at-place/list"
+      },
+      "coordinateType": "geometry-center"
+    },
+    {
+      "id": "osm-node-12973394495",
+      "name": "Coffee Stories",
+      "lat": 51.1692075,
+      "lon": 71.4183934,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "coffee_shop"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: coffee_shop.",
+      "openingHours": null,
+      "wheelchair": "limited",
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/12973394495",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "check_date:opening_hours": "2025-07-02",
+        "cuisine": "coffee_shop",
+        "indoor_seating": "yes",
+        "name": "Coffee Stories",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "no",
+        "wheelchair": "limited"
+      },
+      "coordinateType": "node",
+      "additionalSources": [
+        "https://www.openstreetmap.org/node/12990081601"
+      ]
+    },
+    {
+      "id": "osm-node-5889720185",
+      "name": "Costa",
+      "lat": 51.1597436,
+      "lon": 71.4285152,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "coffee_shop",
+        "outdoor_seating"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: coffee_shop. В источнике указаны места на открытом воздухе.",
+      "openingHours": "Mo-Su 08:00-22:00",
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/5889720185",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "brand": "Costa",
+        "brand:wikidata": "Q608845",
+        "cuisine": "coffee_shop",
+        "indoor_seating": "yes",
+        "name": "Costa",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "outdoor_seating": "yes",
+        "takeaway": "yes"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-6408271985",
+      "name": "CrepeCafe",
+      "lat": 51.1293821,
+      "lon": 71.4285934,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": "Mo-Fr 08:00-00:00; Sa-Su 09:00-00:00",
+      "wheelchair": null,
+      "website": "https://crepecafe.kz",
+      "phone": "+7 771 949 4949",
+      "source": "https://www.openstreetmap.org/node/6408271985",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "contact:email": "info@crepecafe.kz",
+        "contact:facebook": "https://www.facebook.com/crepecafekz",
+        "contact:instagram": "https://www.instagram.com/crepecafe_kz",
+        "contact:phone": "+7 771 949 4949",
+        "contact:website": "https://crepecafe.kz",
+        "name": "CrepeCafe",
+        "opening_hours": "Mo-Fr 08:00-00:00; Sa-Su 09:00-00:00",
+        "operator": "AZAKI2019"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-10559341312",
+      "name": "CrepeCafe",
+      "lat": 51.1633918,
+      "lon": 71.4356111,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": "Mo-Fr 08:00-00:00; Sa-Su 09:00-00:00",
+      "wheelchair": null,
+      "website": "https://crepecafe.kz",
+      "phone": "+7 771 949 4949",
+      "source": "https://www.openstreetmap.org/node/10559341312",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "contact:email": "info@crepecafe.kz",
+        "contact:facebook": "https://www.facebook.com/crepecafekz",
+        "contact:instagram": "https://www.instagram.com/crepecafe_kz",
+        "contact:phone": "+7 771 949 4949",
+        "contact:website": "https://crepecafe.kz",
+        "name": "CrepeCafe",
+        "opening_hours": "Mo-Fr 08:00-00:00; Sa-Su 09:00-00:00",
+        "operator": "Buzen2016"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-10559299807",
+      "name": "CrepeCafe",
+      "lat": 51.1162897,
+      "lon": 71.4334497,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": "Mo-Fr 08:00-00:00; Sa-Su 09:00-00:00",
+      "wheelchair": null,
+      "website": "https://crepecafe.kz",
+      "phone": "+7 771 949 4949",
+      "source": "https://www.openstreetmap.org/node/10559299807",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "contact:email": "info@crepecafe.kz",
+        "contact:facebook": "https://www.facebook.com/crepecafekz",
+        "contact:instagram": "https://www.instagram.com/crepecafe_kz",
+        "contact:phone": "+7 771 949 4949",
+        "contact:website": "https://crepecafe.kz",
+        "name": "CrepeCafe",
+        "opening_hours": "Mo-Fr 08:00-00:00; Sa-Su 09:00-00:00",
+        "operator": "CrepeCafe (КрепКафе)"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-13667384701",
+      "name": "CrepeCafe",
+      "lat": 51.1167613,
+      "lon": 71.4337969,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "crepe",
+        "internet_access"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Адрес: Мәңгілік Ел даңғылы, 17. Кухня в источнике: crepe. Интернет в источнике: wlan. Наличие розеток не подтверждено.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": "https://crepecafe.kz",
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/13667384701",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "addr:housenumber": "17",
+        "addr:street": "Мәңгілік Ел даңғылы",
+        "amenity": "cafe",
+        "contact:facebook": "crepecafekz",
+        "contact:instagram": "crepecafe_kz",
+        "cuisine": "crepe",
+        "internet_access": "wlan",
+        "name": "CrepeCafe",
+        "website": "https://crepecafe.kz"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-way-1449295053",
+      "name": "Cups coffee",
+      "lat": 51.1325682,
+      "lon": 71.40339365,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "coffee_shop"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: coffee_shop.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/way/1449295053",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "indoor": "room",
+        "level": "0",
+        "name": "Cups coffee"
+      },
+      "coordinateType": "geometry-center"
+    },
+    {
+      "id": "osm-node-12973310461",
+      "name": "Dala Coffee",
+      "lat": 51.1678158,
+      "lon": 71.4233057,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "coffee_shop"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: coffee_shop.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/12973310461",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "indoor_seating": "yes",
+        "name": "Dala Coffee",
+        "outdoor_seating": "no"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-10564988185",
+      "name": "Degirmen",
+      "lat": 51.1285659,
+      "lon": 71.4333254,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": "Mo-Su 08:00-00:00",
+      "wheelchair": null,
+      "website": "http://degirmen.kz/",
+      "phone": "+7 708 377 7778",
+      "source": "https://www.openstreetmap.org/node/10564988185",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "contact:email": "marketing@degirmen.kz",
+        "contact:phone": "+7 708 377 7778",
+        "contact:website": "http://degirmen.kz/",
+        "name": "Degirmen",
+        "opening_hours": "Mo-Su 08:00-00:00"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-12919553164",
+      "name": "Discovery Coffee",
+      "lat": 51.1747016,
+      "lon": 71.418438,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "coffee_shop",
+        "outdoor_seating",
+        "wheelchair"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: coffee_shop. В источнике указаны места на открытом воздухе.",
+      "openingHours": "Mo-Sa 08:00-24:00, Su 10:00-24:00",
+      "wheelchair": "yes",
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/12919553164",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "indoor_seating": "yes",
+        "name": "Discovery Coffee",
+        "opening_hours": "Mo-Sa 08:00-24:00, Su 10:00-24:00",
+        "outdoor_seating": "yes",
+        "wheelchair": "yes"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-14275682079",
+      "name": "Drinkit",
+      "lat": 51.0890765,
+      "lon": 71.40609,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "coffee_shop",
+        "internet_access"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Адрес: Қабанбай Батыр даңғылы, 62. Кухня в источнике: coffee_shop. Интернет в источнике: yes. Наличие розеток не подтверждено.",
+      "openingHours": "Mo-Su 08:00-22:00",
+      "wheelchair": null,
+      "website": "https://drinkit.ru/",
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/14275682079",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "addr:city": "Астана",
+        "addr:housenumber": "62",
+        "addr:street": "Қабанбай Батыр даңғылы",
+        "amenity": "cafe",
+        "brand": "Drinkit",
+        "cuisine": "coffee_shop",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "level": "0",
+        "name": "Drinkit",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "payment:app": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "smoking": "no",
+        "toilets": "yes",
+        "website": "https://drinkit.ru/"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-11783576043",
+      "name": "Drinkit",
+      "lat": 51.1008453,
+      "lon": 71.4178111,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "coffee_shop",
+        "internet_access"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Адрес: Улица Бухар жырау, 28Б. Кухня в источнике: coffee_shop. Интернет в источнике: yes. Наличие розеток не подтверждено.",
+      "openingHours": "Mo-Su 08:00-22:00",
+      "wheelchair": null,
+      "website": "https://drinkit.ru/",
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/11783576043",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "addr:city": "Астана",
+        "addr:housenumber": "28Б",
+        "addr:street": "Улица Бухар жырау",
+        "amenity": "cafe",
+        "brand": "Drinkit",
+        "cuisine": "coffee_shop",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "level": "0",
+        "name": "Drinkit",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "payment:app": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "smoking": "no",
+        "toilets": "yes",
+        "website": "https://drinkit.ru/"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-14100100182",
+      "name": "Drinkit",
+      "lat": 51.1302883,
+      "lon": 71.4290105,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "coffee_shop",
+        "internet_access"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: coffee_shop. Интернет в источнике: yes. Наличие розеток не подтверждено.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/14100100182",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "yes",
+        "name": "Drinkit",
+        "toilets": "yes"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-5074875221",
+      "name": "Espresso Bar",
+      "lat": 51.1633098,
+      "lon": 71.4255601,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/5074875221",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "name:en": "Espresso Bar"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-12973421955",
+      "name": "Espresso Day",
+      "lat": 51.1642901,
+      "lon": 71.4272511,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "coffee_shop"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: coffee_shop.",
+      "openingHours": "Mo-Fr 07:00-24:00, Sa,Su 08:00-24:00",
+      "wheelchair": "no",
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/12973421955",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "indoor_seating": "yes",
+        "name": "Espresso Day",
+        "opening_hours": "Mo-Fr 07:00-24:00, Sa,Su 08:00-24:00",
+        "outdoor_seating": "no",
+        "wheelchair": "no"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-6408267786",
+      "name": "Ferrum",
+      "lat": 51.1275185,
+      "lon": 71.4663815,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/6408267786",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "name": "Ferrum"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-5878547585",
+      "name": "Food line",
+      "lat": 51.1041602,
+      "lon": 71.4270117,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/5878547585",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "name": "Food line"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-13313122337",
+      "name": "Gasteria",
+      "lat": 51.1298475,
+      "lon": 71.4241936,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "coffee_shop",
+        "european",
+        "breakfast",
+        "brunch"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Адрес: Қонаев көшесі, 8/1. Кухня в источнике: coffee_shop, european, breakfast, brunch.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/13313122337",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "addr:city": "Астана",
+        "addr:housenumber": "8/1",
+        "addr:street": "Қонаев көшесі",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop;european;breakfast;brunch",
+        "internet_access:fee": "no",
+        "name": "Gasteria"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-13173517356",
+      "name": "Gasteria",
+      "lat": 51.0889451,
+      "lon": 71.4093464,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Адрес: ТРЦ MEGA Silk Way, Кабанбай батыр проспект, 62.",
+      "openingHours": "Mo-Th 10:00-23:00; Fr-Su 10:00-00:00",
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/13173517356",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "addr:city": "Астана",
+        "addr:housenumber": "62",
+        "addr:postcode": "Z05P1P8",
+        "addr:street": "ТРЦ MEGA Silk Way, Кабанбай батыр проспект",
+        "amenity": "cafe",
+        "name": "Gasteria",
+        "opening_hours": "Mo-Th 10:00-23:00; Fr-Su 10:00-00:00"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-12973419508",
+      "name": "Global Coffee",
+      "lat": 51.1702359,
+      "lon": 71.4136175,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "coffee_shop"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: coffee_shop.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/12973419508",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "indoor_seating": "yes",
+        "name": "Global Coffee",
+        "outdoor_seating": "no"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-5918174790",
+      "name": "Gloria Jean's Coffees",
+      "lat": 51.1273281,
+      "lon": 71.4628751,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/5918174790",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "name": "Gloria Jean's Coffees"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-1698389963",
+      "name": "Grill Bar",
+      "lat": 51.1536311,
+      "lon": 71.4370657,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/1698389963",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "indoor_seating": "yes",
+        "name": "Grill Bar",
+        "outdoor_seating": "no"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-11206429884",
+      "name": "JumpinGoat",
+      "lat": 51.1104543,
+      "lon": 71.4213542,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "coffee_shop",
+        "internet_access"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Адрес: улица Акмешит, 13/3. Кухня в источнике: coffee_shop. Интернет в источнике: wlan. Наличие розеток не подтверждено.",
+      "openingHours": "Mo-Su 10:00-22:00",
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/11206429884",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "addr:city": "Астана",
+        "addr:housenumber": "13/3",
+        "addr:street": "улица Акмешит",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "JumpinGoat",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "outdoor_seating": "no"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-12973421415",
+      "name": "LatTea",
+      "lat": 51.1634818,
+      "lon": 71.4274865,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "coffee_shop"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: coffee_shop.",
+      "openingHours": null,
+      "wheelchair": "no",
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/12973421415",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "check_date:opening_hours": "2025-07-02",
+        "cuisine": "coffee_shop",
+        "indoor_seating": "yes",
+        "name": "LatTea",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "no",
+        "wheelchair": "no"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-12123366034",
+      "name": "Lenger Coffee",
+      "lat": 51.176224,
+      "lon": 71.4190308,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "coffee_shop"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: coffee_shop.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/12123366034",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "indoor_seating": "yes",
+        "name": "Lenger Coffee",
+        "outdoor_seating": "no"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-12876977238",
+      "name": "Ma Famille French Cafe",
+      "lat": 51.1643026,
+      "lon": 71.4200215,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "outdoor_seating"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. В источнике указаны места на открытом воздухе.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/12876977238",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "indoor_seating": "yes",
+        "name": "Ma Famille French Cafe",
+        "outdoor_seating": "yes"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-11910202470",
+      "name": "marrone rosso",
+      "lat": 51.1284058,
+      "lon": 71.4250639,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/11910202470",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "name": "marrone rosso"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-13858040201",
+      "name": "Master Coffee",
+      "lat": 51.1299661,
+      "lon": 71.4376735,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "outdoor_seating"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Адрес: Қонаев көшесі, 35. В источнике указаны места на открытом воздухе.",
+      "openingHours": "Mo-Fr 07:15-23:00; Sa-Su 08:15-00:00",
+      "wheelchair": null,
+      "website": null,
+      "phone": "+7 702 249 41 13",
+      "source": "https://www.openstreetmap.org/node/13858040201",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "addr:housenumber": "35",
+        "addr:street": "Қонаев көшесі",
+        "amenity": "cafe",
+        "contact:instagram": "mastercoffee.kz",
+        "name": "Master Coffee",
+        "opening_hours": "Mo-Fr 07:15-23:00; Sa-Su 08:15-00:00",
+        "outdoor_seating": "yes",
+        "phone": "+7 702 249 41 13"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-12744521223",
+      "name": "Master Coffee",
+      "lat": 51.1636673,
+      "lon": 71.4170854,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "coffee_shop",
+        "wheelchair"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: coffee_shop.",
+      "openingHours": "Mo-Fr 07:14-23:00; Sa,Su,PH 08:14-23:00",
+      "wheelchair": "yes",
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/12744521223",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "indoor_seating": "yes",
+        "name": "Master Coffee",
+        "opening_hours": "Mo-Fr 07:14-23:00; Sa,Su,PH 08:14-23:00",
+        "outdoor_seating": "no",
+        "wheelchair": "yes"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-12973341169",
+      "name": "Master Coffee",
+      "lat": 51.1458599,
+      "lon": 71.4246482,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "coffee_shop",
+        "outdoor_seating"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: coffee_shop. В источнике указаны места на открытом воздухе.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/12973341169",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "indoor_seating": "yes",
+        "name": "Master Coffee",
+        "outdoor_seating": "yes"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-12996721851",
+      "name": "Master Coffee",
+      "lat": 51.1034667,
+      "lon": 71.4291709,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "coffee_shop"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: coffee_shop.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/12996721851",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Master Coffee"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-12135833544",
+      "name": "Master Coffee",
+      "lat": 51.1463178,
+      "lon": 71.4235987,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "coffee_shop"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: coffee_shop.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/12135833544",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Master Coffee"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-13159299257",
+      "name": "Master Coffee",
+      "lat": 51.1261684,
+      "lon": 71.4691519,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/13159299257",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "name": "Master Coffee"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-12917093499",
+      "name": "McDoner's",
+      "lat": 51.1465835,
+      "lon": 71.4135123,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "outdoor_seating"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. В источнике указаны места на открытом воздухе.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/12917093499",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "indoor_seating": "yes",
+        "name": "McDoner's",
+        "outdoor_seating": "yes"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-1198118007",
+      "name": "Mega",
+      "lat": 51.1450863,
+      "lon": 71.4135603,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/1198118007",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "name": "Mega"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-12041597369",
+      "name": "MÖKKi",
+      "lat": 51.1251254,
+      "lon": 71.4318134,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/12041597369",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "name": "MÖKKi"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-12135824881",
+      "name": "Moment coffee",
+      "lat": 51.1613972,
+      "lon": 71.4180679,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "coffee_shop",
+        "outdoor_seating"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: coffee_shop. В источнике указаны места на открытом воздухе.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/12135824881",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "indoor_seating": "yes",
+        "name": "Moment coffee",
+        "outdoor_seating": "yes"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-12993934593",
+      "name": "ÖM",
+      "lat": 51.1631384,
+      "lon": 71.4210714,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": "Mo-Su,PH 12:00-22:00",
+      "wheelchair": "no",
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/12993934593",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "indoor_seating": "yes",
+        "name": "ÖM",
+        "opening_hours": "Mo-Su,PH 12:00-22:00",
+        "outdoor_seating": "no",
+        "wheelchair": "no"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-5920221628",
+      "name": "Pchelkin Good Food",
+      "lat": 51.1442658,
+      "lon": 71.4284317,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "burger",
+        "internet_access"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Адрес: Нұртас Оңдасынов көшесі, 13. Кухня в источнике: burger. Интернет в источнике: wlan. Наличие розеток не подтверждено.",
+      "openingHours": "00:00-23:59",
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/5920221628",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "addr:housenumber": "13",
+        "addr:street": "Нұртас Оңдасынов көшесі",
+        "amenity": "cafe",
+        "cuisine": "burger",
+        "internet_access": "wlan",
+        "name": "Pchelkin Good Food",
+        "opening_hours": "00:00-23:59",
+        "smoking": "outside"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-14089471172",
+      "name": "Qaganat",
+      "lat": 51.1277749,
+      "lon": 71.422767,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/14089471172",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "name": "Qaganat"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-1843876259",
+      "name": "Rafe",
+      "lat": 51.1279864,
+      "lon": 71.4372343,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/1843876259",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "name": "Rafe"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-4133854089",
+      "name": "Rafe",
+      "lat": 51.1297293,
+      "lon": 71.4259859,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/4133854089",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "name": "Rafe"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-1843876263",
+      "name": "Rafe",
+      "lat": 51.1624911,
+      "lon": 71.4239556,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/1843876263",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "name": "Rafe"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-12135831824",
+      "name": "Sazan",
+      "lat": 51.1640045,
+      "lon": 71.4176023,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/12135831824",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "indoor_seating": "yes",
+        "name": "Sazan",
+        "outdoor_seating": "no"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-11171945111",
+      "name": "SF",
+      "lat": 51.1681165,
+      "lon": 71.412983,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "outdoor_seating"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. В источнике указаны места на открытом воздухе.",
+      "openingHours": "24/7",
+      "wheelchair": "no",
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/11171945111",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "check_date": "2023-09-06",
+        "indoor_seating": "yes",
+        "name": "SF",
+        "opening_hours": "24/7",
+        "outdoor_seating": "yes",
+        "wheelchair": "no"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-12104374564",
+      "name": "Soul kitchen",
+      "lat": 51.1258433,
+      "lon": 71.4659686,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/12104374564",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "name": "Soul kitchen"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-5132817725",
+      "name": "Starbucks",
+      "lat": 51.1250687,
+      "lon": 71.4326558,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "coffee_shop"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: coffee_shop.",
+      "openingHours": "Mo-Fr 07:30-23:00; Sa-Su 08:00-23:00",
+      "wheelchair": null,
+      "website": "https://www.starbucks.com.kz/",
+      "phone": "+7 727 339 9860;+7 800 0802185",
+      "source": "https://www.openstreetmap.org/node/5132817725",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "contact:email": "CSupport@alshaya.kz",
+        "contact:instagram": "https://instagram.com/starbuckskz",
+        "contact:phone": "+7 727 339 9860;+7 800 0802185",
+        "contact:website": "https://www.starbucks.com.kz/",
+        "cuisine": "coffee_shop",
+        "level": "1",
+        "name": "Starbucks",
+        "name:en": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "opening_hours": "Mo-Fr 07:30-23:00; Sa-Su 08:00-23:00",
+        "operator": "\"Shaya Kazakhstan\"",
+        "takeaway": "yes"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-5333278825",
+      "name": "Starbucks",
+      "lat": 51.145965,
+      "lon": 71.4243176,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "coffee_shop",
+        "internet_access"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: coffee_shop. Интернет в источнике: wlan. Наличие розеток не подтверждено.",
+      "openingHours": "Mo-Su 09:30-23:00",
+      "wheelchair": null,
+      "website": "https://www.starbucks.com.kz/",
+      "phone": "+7 727 339 9860;+7 800 0802185",
+      "source": "https://www.openstreetmap.org/node/5333278825",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "contact:email": "CSupport@alshaya.kz",
+        "contact:instagram": "https://instagram.com/starbuckskz",
+        "contact:phone": "+7 727 339 9860;+7 800 0802185",
+        "contact:website": "https://www.starbucks.com.kz/",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "name": "Starbucks",
+        "name:en": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "opening_hours": "Mo-Su 09:30-23:00",
+        "operator": "\"Shaya Kazakhstan\"",
+        "takeaway": "yes"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-9047331868",
+      "name": "Starbucks",
+      "lat": 51.130891,
+      "lon": 71.423656,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "coffee_shop"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: coffee_shop.",
+      "openingHours": "Mo-Fr 07:30-19:00",
+      "wheelchair": null,
+      "website": "https://www.starbucks.com.kz/",
+      "phone": "+7 727 339 9860;+7 800 0802185",
+      "source": "https://www.openstreetmap.org/node/9047331868",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "contact:email": "CSupport@alshaya.kz",
+        "contact:instagram": "https://instagram.com/starbuckskz",
+        "contact:phone": "+7 727 339 9860;+7 800 0802185",
+        "contact:website": "https://www.starbucks.com.kz/",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "name:en": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "opening_hours": "Mo-Fr 07:30-19:00",
+        "operator": "\"Shaya Kazakhstan\"",
+        "takeaway": "yes"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-9047331880",
+      "name": "Starbucks",
+      "lat": 51.1280727,
+      "lon": 71.4254906,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "coffee_shop"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: coffee_shop.",
+      "openingHours": "Mo-Su 09:00-23:00",
+      "wheelchair": null,
+      "website": "https://www.starbucks.com.kz/",
+      "phone": "+7 727 339 9860;+7 800 0802185",
+      "source": "https://www.openstreetmap.org/node/9047331880",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "contact:email": "CSupport@alshaya.kz",
+        "contact:instagram": "https://instagram.com/starbuckskz",
+        "contact:phone": "+7 727 339 9860;+7 800 0802185",
+        "contact:website": "https://www.starbucks.com.kz/",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "name:en": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "opening_hours": "Mo-Su 09:00-23:00",
+        "operator": "\"Shaya Kazakhstan\"",
+        "takeaway": "yes"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-9047331879",
+      "name": "Starbucks",
+      "lat": 51.0890092,
+      "lon": 71.4089158,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "coffee_shop"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: coffee_shop.",
+      "openingHours": "Mo-Su 08:00-22:00",
+      "wheelchair": null,
+      "website": "https://www.starbucks.com.kz/",
+      "phone": "+7 727 339 9860;+7 800 0802185",
+      "source": "https://www.openstreetmap.org/node/9047331879",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "contact:email": "CSupport@alshaya.kz",
+        "contact:instagram": "https://instagram.com/starbuckskz",
+        "contact:phone": "+7 727 339 9860;+7 800 0802185",
+        "contact:website": "https://www.starbucks.com.kz/",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "name:en": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "operator": "\"Shaya Kazakhstan\"",
+        "takeaway": "yes"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-9047331881",
+      "name": "Starbucks",
+      "lat": 51.1452543,
+      "lon": 71.4139733,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "coffee_shop"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: coffee_shop.",
+      "openingHours": "Mo-Su 08:00-23:00",
+      "wheelchair": null,
+      "website": "https://www.starbucks.com.kz/",
+      "phone": "+7 727 339 9860;+7 800 0802185",
+      "source": "https://www.openstreetmap.org/node/9047331881",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "contact:email": "CSupport@alshaya.kz",
+        "contact:instagram": "https://instagram.com/starbuckskz",
+        "contact:phone": "+7 727 339 9860;+7 800 0802185",
+        "contact:website": "https://www.starbucks.com.kz/",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "name:en": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "opening_hours": "Mo-Su 08:00-23:00",
+        "operator": "\"Shaya Kazakhstan\"",
+        "takeaway": "yes"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-way-1449301315",
+      "name": "Starbucks",
+      "lat": 51.1327269,
+      "lon": 71.4037634,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "coffee_shop"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: coffee_shop.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/way/1449301315",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "cuisine": "coffee_shop",
+        "indoor": "room",
+        "level": "1",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "coordinateType": "geometry-center"
+    },
+    {
+      "id": "osm-node-13619962901",
+      "name": "Sultani",
+      "lat": 51.1612111,
+      "lon": 71.4296696,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "asian",
+        "breakfast",
+        "burger",
+        "chinese",
+        "italian",
+        "japanese",
+        "local"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Адрес: проспект Республики, 16/2. Кухня в источнике: asian, breakfast, burger, chinese, italian, japanese, local.",
+      "openingHours": "Mo-Su 08:00-05:00",
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/13619962901",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "addr:housenumber": "16/2",
+        "addr:street": "проспект Республики",
+        "amenity": "cafe",
+        "cuisine": "asian;breakfast;burger;chinese;italian;japanese;local",
+        "name": "Sultani",
+        "opening_hours": "Mo-Su 08:00-05:00"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-5890019985",
+      "name": "Sushifox",
+      "lat": 51.1669207,
+      "lon": 71.4123803,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "korean",
+        "pizza",
+        "sushi"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: korean, pizza, sushi.",
+      "openingHours": "11:00-23:00",
+      "wheelchair": null,
+      "website": null,
+      "phone": "+7 7476759060",
+      "source": "https://www.openstreetmap.org/node/5890019985",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "check_date": "2023-01-21",
+        "cuisine": "korean;pizza;sushi",
+        "internet_access": "no",
+        "name": "Sushifox",
+        "name:kk": "Суши фокс",
+        "opening_hours": "11:00-23:00",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+7 7476759060"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-12146103477",
+      "name": "Tez besh",
+      "lat": 51.1589604,
+      "lon": 71.4287741,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "outdoor_seating"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. В источнике указаны места на открытом воздухе.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/12146103477",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "check_date:opening_hours": "2025-04-11",
+        "indoor_seating": "yes",
+        "name": "Tez besh",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "yes",
+        "smoking": "outside"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-5181103422",
+      "name": "The Кофе",
+      "lat": 51.1642145,
+      "lon": 71.4371795,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/5181103422",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "name": "The Кофе",
+        "name:en": "The Kofe",
+        "name:ru": "The Кофе"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-11290690869",
+      "name": "TLP Flowers & Coffee",
+      "lat": 51.1005554,
+      "lon": 71.412037,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "breakfast",
+        "cake",
+        "coffee_shop",
+        "diner",
+        "donut",
+        "italian",
+        "pasta",
+        "internet_access"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Адрес: улица Гейдара Алиева, 1. Кухня в источнике: breakfast, cake, coffee_shop, diner, donut, italian, pasta. Интернет в источнике: wlan. Наличие розеток не подтверждено.",
+      "openingHours": "Su-Sa 09:00-23:00",
+      "wheelchair": null,
+      "website": "https://tlpcompany.kz/",
+      "phone": "+77758888255",
+      "source": "https://www.openstreetmap.org/node/11290690869",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "addr:housenumber": "1",
+        "addr:postcode": "020000",
+        "addr:street": "улица Гейдара Алиева",
+        "amenity": "cafe",
+        "cuisine": "breakfast;cake;coffee_shop;diner;donut;italian;pasta",
+        "email": "tlpcompany101@gmail.com",
+        "internet_access": "wlan",
+        "name": "TLP Flowers & Coffee",
+        "opening_hours": "Su-Sa 09:00-23:00",
+        "phone": "+77758888255",
+        "website": "https://tlpcompany.kz/"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-10861996205",
+      "name": "Veggie House",
+      "lat": 51.0964416,
+      "lon": 71.4090062,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/10861996205",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "name:en": "Veggie House"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-12993941252",
+      "name": "Wine cafe",
+      "lat": 51.14026,
+      "lon": 71.4171016,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "outdoor_seating"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. В источнике указаны места на открытом воздухе.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/12993941252",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "indoor_seating": "yes",
+        "name": "Wine cafe",
+        "outdoor_seating": "yes"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-13408518401",
+      "name": "Zebra coffee",
+      "lat": 51.1379062,
+      "lon": 71.4155612,
+      "category": "cafe",
+      "tags": [
+        "cafe"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Адрес: Қабанбай Батыр даңғылы, 13.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/13408518401",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "addr:housenumber": "13",
+        "addr:street": "Қабанбай Батыр даңғылы",
+        "amenity": "cafe",
+        "name": "Zebra coffee"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-way-1337736026",
+      "name": "Zebra Coffee",
+      "lat": 51.1633217,
+      "lon": 71.43080549999999,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "coffee_shop"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: coffee_shop.",
+      "openingHours": "24/7",
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/way/1337736026",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "addr:city": "Астана",
+        "addr:country": "KZ",
+        "amenity": "cafe",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "Zebra Coffee",
+        "opening_hours": "24/7",
+        "outdoor_seating": "no"
+      },
+      "coordinateType": "geometry-center"
+    },
+    {
+      "id": "osm-node-12973411739",
+      "name": "Zebra Coffee",
+      "lat": 51.1601864,
+      "lon": 71.4284463,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "coffee_shop",
+        "outdoor_seating",
+        "wheelchair"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: coffee_shop. В источнике указаны места на открытом воздухе.",
+      "openingHours": "Mo-Su 08:00-24:00",
+      "wheelchair": "yes",
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/12973411739",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "indoor_seating": "yes",
+        "name": "Zebra Coffee",
+        "opening_hours": "Mo-Su 08:00-24:00",
+        "outdoor_seating": "yes",
+        "wheelchair": "yes"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-11927785970",
+      "name": "Zebra Coffee",
+      "lat": 51.1149252,
+      "lon": 71.4331914,
+      "category": "cafe",
+      "tags": [
+        "cafe",
+        "coffee_shop"
+      ],
+      "description": "Кафе в Астане по данным OpenStreetMap. Кухня в источнике: coffee_shop.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/11927785970",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "indoor_seating": "yes",
+        "name": "Zebra Coffee",
+        "outdoor_seating": "no"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-way-1460763574",
+      "name": "25-ти летие Независимости",
+      "lat": 51.09345235000001,
+      "lon": 71.4175645,
+      "category": "landmark",
+      "tags": [
+        "landmark"
+      ],
+      "description": "Достопримечательность в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/way/1460763574",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "addr:city": "Астана",
+        "addr:country": "KZ",
+        "addr:place": "ЭКСПО-2017",
+        "area": "yes",
+        "building": "yes",
+        "height": "46",
+        "name": "Тәуелсіздіктің 25 жылдығы",
+        "name:en": "25th Anniversary of Independence",
+        "name:ru": "25-ти летие Независимости",
+        "roof:height": "46",
+        "roof:shape": "hipped",
+        "tourism": "attraction"
+      },
+      "coordinateType": "geometry-center"
+    },
+    {
+      "id": "osm-node-3743119878",
+      "name": "А. Кунанбайулы",
+      "lat": 51.1679151,
+      "lon": 71.420358,
+      "category": "landmark",
+      "tags": [
+        "landmark",
+        "memorial"
+      ],
+      "description": "Достопримечательность в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/3743119878",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "historic": "memorial",
+        "memorial": "statue",
+        "name": "А. Құнанбайұлы",
+        "name:ru": "А. Кунанбайулы"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-4109068594",
+      "name": "Айтеке-би, Казыбек-би и Толе-би",
+      "lat": 51.1695299,
+      "lon": 71.4208049,
+      "category": "landmark",
+      "tags": [
+        "landmark",
+        "memorial"
+      ],
+      "description": "Достопримечательность в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/4109068594",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "historic": "memorial",
+        "memorial": "statue",
+        "name": "Айтеке-би, Казыбек-би и Толе-би"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-way-230401645",
+      "name": "Байтерек",
+      "lat": 51.12828825,
+      "lon": 71.4304546,
+      "category": "landmark",
+      "tags": [
+        "landmark",
+        "monument"
+      ],
+      "description": "Достопримечательность в Астане по данным OpenStreetMap. Адрес: Нұржол желек жолы, 14.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/way/230401645",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "access": "yes",
+        "addr:city": "Астана",
+        "addr:country": "KZ",
+        "addr:housenumber": "14",
+        "addr:street": "Нұржол желек жолы",
+        "building": "yes",
+        "building:levels": "27",
+        "historic": "monument",
+        "layer": "1",
+        "name": "Бәйтерек",
+        "name:de": "Bajterek-Turm",
+        "name:en": "Bayterek",
+        "name:ja": "バイテレック・タワー・タワー",
+        "name:kk": "Бәйтерек",
+        "name:ml": "ബൈറ്റെറെക് ടവർ",
+        "name:ru": "Байтерек",
+        "wikidata": "Q804210",
+        "wikipedia": "kk:Бәйтерек (монумент)",
+        "wikipedia:ru": "ru:Байтерек (монумент)"
+      },
+      "coordinateType": "geometry-center"
+    },
+    {
+      "id": "osm-way-1449322339",
+      "name": "Динопарк",
+      "lat": 51.1324374,
+      "lon": 71.4044883,
+      "category": "landmark",
+      "tags": [
+        "landmark"
+      ],
+      "description": "Достопримечательность в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/way/1449322339",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "indoor": "room",
+        "level": "4",
+        "name": "Динопарк",
+        "tourism": "attraction"
+      },
+      "coordinateType": "geometry-center"
+    },
+    {
+      "id": "osm-node-455447676",
+      "name": "Жамбыл",
+      "lat": 51.1513903,
+      "lon": 71.4454592,
+      "category": "landmark",
+      "tags": [
+        "landmark",
+        "monument"
+      ],
+      "description": "Достопримечательность в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/455447676",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "historic": "monument",
+        "name": "Жамбыл"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-4109068593",
+      "name": "Жер-ана (Томирис)",
+      "lat": 51.1533831,
+      "lon": 71.4317199,
+      "category": "landmark",
+      "tags": [
+        "landmark",
+        "artwork"
+      ],
+      "description": "Достопримечательность в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/4109068593",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "artwork_type": "statue",
+        "name": "Жер-ана (Томирис)",
+        "name:en": "Zher-ana (Tomiris)",
+        "name:ru": "Жер-ана (Томирис)",
+        "tourism": "artwork"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-13340040665",
+      "name": "Жетігенші",
+      "lat": 51.1346692,
+      "lon": 71.4106104,
+      "category": "landmark",
+      "tags": [
+        "landmark",
+        "artwork"
+      ],
+      "description": "Достопримечательность в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/13340040665",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "artist_name": "М.Мансурова;Т.Ермекова",
+        "artwork_type": "statue",
+        "name": "Жетігенші",
+        "tourism": "artwork"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-1278114185",
+      "name": "Кенесары хан",
+      "lat": 51.1604981,
+      "lon": 71.4240851,
+      "category": "landmark",
+      "tags": [
+        "landmark",
+        "memorial"
+      ],
+      "description": "Достопримечательность в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/1278114185",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "historic": "memorial",
+        "memorial": "statue",
+        "name": "Кенесары хан"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-way-1449322329",
+      "name": "Конвой",
+      "lat": 51.13284725,
+      "lon": 71.40381205,
+      "category": "landmark",
+      "tags": [
+        "landmark"
+      ],
+      "description": "Достопримечательность в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/way/1449322329",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "indoor": "area",
+        "level": "4",
+        "name": "Конвой",
+        "tourism": "attraction"
+      },
+      "coordinateType": "geometry-center"
+    },
+    {
+      "id": "osm-node-2681623412",
+      "name": "Қазақ елі",
+      "lat": 51.1221098,
+      "lon": 71.4698815,
+      "category": "landmark",
+      "tags": [
+        "landmark",
+        "memorial"
+      ],
+      "description": "Достопримечательность в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/2681623412",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "historic": "memorial",
+        "man_made": "obelisk",
+        "name": "Қазақ елі",
+        "name:en": "Kazak Eli Monument",
+        "name:es": "Monumento a Kazak Eli",
+        "name:kk": "Қазақ елі"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-5878503586",
+      "name": "Қазақ еліне мың алғыс",
+      "lat": 51.1051208,
+      "lon": 71.4242471,
+      "category": "landmark",
+      "tags": [
+        "landmark",
+        "memorial"
+      ],
+      "description": "Достопримечательность в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/5878503586",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "historic": "memorial",
+        "name": "Қазақ еліне мың алғыс"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-13340040666",
+      "name": "Қобызшы",
+      "lat": 51.1347534,
+      "lon": 71.4100755,
+      "category": "landmark",
+      "tags": [
+        "landmark",
+        "artwork"
+      ],
+      "description": "Достопримечательность в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/13340040666",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "artwork_type": "statue",
+        "name": "Қобызшы",
+        "tourism": "artwork"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-13333409377",
+      "name": "Махтумкули Фраги",
+      "lat": 51.1303587,
+      "lon": 71.4010254,
+      "category": "landmark",
+      "tags": [
+        "landmark",
+        "memorial"
+      ],
+      "description": "Достопримечательность в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/13333409377",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "historic": "memorial",
+        "memorial": "statue",
+        "name": "Махтумкули Фраги"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-way-1239177393",
+      "name": "Мост Атырау",
+      "lat": 51.1560749,
+      "lon": 71.4249916,
+      "category": "landmark",
+      "tags": [
+        "landmark"
+      ],
+      "description": "Достопримечательность в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/way/1239177393",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "bridge": "covered",
+        "bridge:structure": "beam",
+        "int_name": "Atıraw köpiri",
+        "layer": "1",
+        "man_made": "bridge",
+        "name": "Атырау көпірі",
+        "name:kk": "Атырау көпірі",
+        "name:ru": "Мост Атырау",
+        "tourism": "attraction"
+      },
+      "coordinateType": "geometry-center"
+    },
+    {
+      "id": "osm-node-4892204728",
+      "name": "Мустафе Кемалю Ататюрку",
+      "lat": 51.1511586,
+      "lon": 71.4320358,
+      "category": "landmark",
+      "tags": [
+        "landmark",
+        "memorial"
+      ],
+      "description": "Достопримечательность в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/4892204728",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "historic": "memorial",
+        "material": "bronze",
+        "memorial": "statue",
+        "name": "Мұстафа Кемал Ататүрік",
+        "name:en": "Monument to Mustafa Kemal Ataturk",
+        "name:ru": "Мустафе Кемалю Ататюрку",
+        "start_date": "2009"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-7684091171",
+      "name": "Н. А. Назарбаеву",
+      "lat": 51.1562423,
+      "lon": 71.431928,
+      "category": "landmark",
+      "tags": [
+        "landmark",
+        "memorial"
+      ],
+      "description": "Достопримечательность в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/7684091171",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "fixme": "Уточнить позицию после переноса памятника",
+        "historic": "memorial",
+        "memorial": "statue",
+        "name": "Н. Ә. Назарбаев",
+        "name:kk": "Н. Ә. Назарбаев",
+        "name:ru": "Н. А. Назарбаеву",
+        "start_date": "2020-05-03"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-way-1449322337",
+      "name": "НЛО",
+      "lat": 51.1322391,
+      "lon": 71.40463475,
+      "category": "landmark",
+      "tags": [
+        "landmark"
+      ],
+      "description": "Достопримечательность в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/way/1449322337",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "indoor": "area",
+        "level": "4",
+        "name": "НЛО",
+        "tourism": "attraction"
+      },
+      "coordinateType": "geometry-center"
+    },
+    {
+      "id": "osm-node-2712544129",
+      "name": "Памятник \"Жанибек и Керей хандары\"",
+      "lat": 51.1664322,
+      "lon": 71.4169499,
+      "category": "landmark",
+      "tags": [
+        "landmark",
+        "monument"
+      ],
+      "description": "Достопримечательность в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/2712544129",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "historic": "monument",
+        "name": "Памятник \"Жанибек и Керей хандары\"",
+        "name:kk": "Жәнібек пен Керей хандар ескерткіші"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-4113550330",
+      "name": "Памятник жертвам голодомора",
+      "lat": 51.1686561,
+      "lon": 71.4256941,
+      "category": "landmark",
+      "tags": [
+        "landmark",
+        "memorial"
+      ],
+      "description": "Достопримечательность в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/4113550330",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "historic": "memorial",
+        "memorial": "sculpture",
+        "name": "Памятник жертвам голодомора"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-2349679958",
+      "name": "С. Сейфуллину",
+      "lat": 51.1715412,
+      "lon": 71.4239674,
+      "category": "landmark",
+      "tags": [
+        "landmark",
+        "memorial"
+      ],
+      "description": "Достопримечательность в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/2349679958",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "historic": "memorial",
+        "memorial": "statue",
+        "name": "С. Сейфуллин",
+        "name:kk": "С. Сейфуллин",
+        "name:ru": "С. Сейфуллину"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-4209560711",
+      "name": "Т34-85",
+      "lat": 51.1554129,
+      "lon": 71.4323473,
+      "category": "landmark",
+      "tags": [
+        "landmark",
+        "tank"
+      ],
+      "description": "Достопримечательность в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/4209560711",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "fixme": "position",
+        "historic": "tank",
+        "name": "Т34-85",
+        "tourism": "attraction"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-14087643081",
+      "name": "Табун Лошадей",
+      "lat": 51.1318367,
+      "lon": 71.4146358,
+      "category": "landmark",
+      "tags": [
+        "landmark"
+      ],
+      "description": "Достопримечательность в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/14087643081",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "name": "Жылқылар үйірі",
+        "name:ru": "Табун Лошадей",
+        "tourism": "attraction"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-way-549307755",
+      "name": "Триумфальная арка Мангилик Ел",
+      "lat": 51.1043034,
+      "lon": 71.4300836,
+      "category": "landmark",
+      "tags": [
+        "landmark",
+        "monument"
+      ],
+      "description": "Достопримечательность в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/way/549307755",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "architect": "Сағындық Жанболатов",
+        "building": "triumphal_arch",
+        "height": "20",
+        "historic": "monument",
+        "name": "Мәңгілік Ел салтанат қақпасы",
+        "name:en": "Mäñgilik El Triumphal Arch",
+        "name:ru": "Триумфальная арка Мангилик Ел",
+        "start_date": "2011-12-16",
+        "tourism": "attraction",
+        "wikidata": "Q42422896",
+        "wikipedia": "en:Mäñgilik El Triumphal Arch"
+      },
+      "coordinateType": "geometry-center"
+    },
+    {
+      "id": "osm-way-1449322338",
+      "name": "Ұшатын автобус",
+      "lat": 51.132468599999996,
+      "lon": 71.40474985,
+      "category": "landmark",
+      "tags": [
+        "landmark"
+      ],
+      "description": "Достопримечательность в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/way/1449322338",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "indoor": "area",
+        "level": "4",
+        "name": "Ұшатын автобус",
+        "tourism": "attraction"
+      },
+      "coordinateType": "geometry-center"
+    },
+    {
+      "id": "osm-node-13340050452",
+      "name": "Хатико",
+      "lat": 51.1369933,
+      "lon": 71.4027939,
+      "category": "landmark",
+      "tags": [
+        "landmark",
+        "artwork"
+      ],
+      "description": "Достопримечательность в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/13340050452",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "artwork_type": "sculpture",
+        "name": "Хатико",
+        "tourism": "artwork"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-way-1449322340",
+      "name": "Электронды көліктер",
+      "lat": 51.132724350000004,
+      "lon": 71.40443095,
+      "category": "landmark",
+      "tags": [
+        "landmark"
+      ],
+      "description": "Достопримечательность в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/way/1449322340",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "indoor": "area",
+        "level": "4",
+        "name": "Электронды көліктер",
+        "tourism": "attraction"
+      },
+      "coordinateType": "geometry-center"
+    },
+    {
+      "id": "osm-node-13397184827",
+      "name": "Юнус Эмре",
+      "lat": 51.1518841,
+      "lon": 71.4303536,
+      "category": "landmark",
+      "tags": [
+        "landmark",
+        "memorial"
+      ],
+      "description": "Достопримечательность в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/13397184827",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "alt_name": "Жүніс Әміре",
+        "historic": "memorial",
+        "memorial": "statue",
+        "name": "Юнус Эмре",
+        "name:en": "Yunus Emre"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-way-454857501",
+      "name": "Alem.ai Международный центр искусственного интеллекта",
+      "lat": 51.08925205,
+      "lon": 71.4161925,
+      "category": "landmark",
+      "tags": [
+        "landmark",
+        "future_museum"
+      ],
+      "description": "Достопримечательность в Астане по данным OpenStreetMap. В OSM указан тег museum=future и офисное использование; действующая музейная экспозиция и доступ для посещения не подтверждены. Адрес: Мәңгілік Ел даңғылы, В1.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": "https://alem.ai/kk/",
+      "phone": null,
+      "source": "https://www.openstreetmap.org/way/454857501",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "addr:city": "Астана",
+        "addr:housenumber": "В1",
+        "addr:street": "Мәңгілік Ел даңғылы",
+        "building": "office",
+        "museum": "future",
+        "name": "Alem.ai",
+        "name:kk": "Alem.ai Халықаралық Жасанды Интеллект Орталығы",
+        "name:ru": "Alem.ai Международный центр искусственного интеллекта",
+        "office": "yes",
+        "website": "https://alem.ai/kk/"
+      },
+      "coordinateType": "geometry-center"
+    },
+    {
+      "id": "osm-node-10860197906",
+      "name": "Beatles Statue",
+      "lat": 51.1623955,
+      "lon": 71.4237199,
+      "category": "landmark",
+      "tags": [
+        "landmark",
+        "artwork"
+      ],
+      "description": "Достопримечательность в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/10860197906",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "name": "Beatles Statue",
+        "tourism": "artwork"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-way-454853233",
+      "name": "EXPO",
+      "lat": 51.0927879,
+      "lon": 71.42148159999999,
+      "category": "landmark",
+      "tags": [
+        "landmark",
+        "exhibition_centre"
+      ],
+      "description": "Достопримечательность в Астане по данным OpenStreetMap. Выставочный центр; актуальная программа и доступ требуют проверки. Адрес: Мәңгілік Ел даңғылы, 53/1.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/way/454853233",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "addr:city": "Астана",
+        "addr:country": "KZ",
+        "addr:housenumber": "53/1",
+        "addr:street": "Мәңгілік Ел даңғылы",
+        "amenity": "exhibition_centre",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "EXPO"
+      },
+      "coordinateType": "geometry-center"
+    },
+    {
+      "id": "osm-way-1449322335",
+      "name": "Gold Mine Coaster",
+      "lat": 51.1322245,
+      "lon": 71.40393145,
+      "category": "landmark",
+      "tags": [
+        "landmark"
+      ],
+      "description": "Достопримечательность в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/way/1449322335",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "indoor": "area",
+        "level": "4",
+        "name": "Gold Mine Coaster",
+        "tourism": "attraction"
+      },
+      "coordinateType": "geometry-center"
+    },
+    {
+      "id": "osm-way-1449322336",
+      "name": "Pop Up",
+      "lat": 51.1322131,
+      "lon": 71.40414630000001,
+      "category": "landmark",
+      "tags": [
+        "landmark"
+      ],
+      "description": "Достопримечательность в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/way/1449322336",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "indoor": "area",
+        "level": "4",
+        "name": "Pop Up",
+        "tourism": "attraction"
+      },
+      "coordinateType": "geometry-center"
+    },
+    {
+      "id": "osm-node-12009143370",
+      "name": "The Wall of Peace Monument",
+      "lat": 51.1218404,
+      "lon": 71.4717428,
+      "category": "landmark",
+      "tags": [
+        "landmark",
+        "memorial"
+      ],
+      "description": "Достопримечательность в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/12009143370",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "historic": "memorial",
+        "name:de": "Friedensdenkmal zur Schließung des nuklearen Testzentrums in Semipalatinsk",
+        "name:en": "The Wall of Peace Monument",
+        "name:es": "Monumento a la paz tras el cierre del centro de pruebas nucleares en Semipalatinsk"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-node-4958412863",
+      "name": "Zur Sultan",
+      "lat": 51.1318179,
+      "lon": 71.4077184,
+      "category": "landmark",
+      "tags": [
+        "landmark",
+        "memorial"
+      ],
+      "description": "Достопримечательность в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/4958412863",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "historic": "memorial",
+        "memorial": "statue",
+        "name": "Zur Sultan",
+        "name:en": "Zul Sultan"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-way-239713764",
+      "name": "Азия Парк",
+      "lat": 51.1280776,
+      "lon": 71.4116815,
+      "category": "mall",
+      "tags": [
+        "mall"
+      ],
+      "description": "Торговый центр в Астане по данным OpenStreetMap. Адрес: Қабанбай Батыр даңғылы, 21.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/way/239713764",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "addr:country": "KZ",
+        "addr:housenumber": "21",
+        "addr:street": "Қабанбай Батыр даңғылы",
+        "building": "retail",
+        "building:levels": "4",
+        "name": "Asia Park",
+        "name:ru": "Азия Парк",
+        "shop": "mall"
+      },
+      "coordinateType": "geometry-center"
+    },
+    {
+      "id": "osm-way-240931360",
+      "name": "Каскад",
+      "lat": 51.1459716,
+      "lon": 71.42416800000001,
+      "category": "mall",
+      "tags": [
+        "mall"
+      ],
+      "description": "Торговый центр в Астане по данным OpenStreetMap. Адрес: Қабанбай Батыр даңғылы, 6/2.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/way/240931360",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "addr:city": "Астана",
+        "addr:country": "KZ",
+        "addr:housenumber": "6/2",
+        "addr:street": "Қабанбай Батыр даңғылы",
+        "building": "retail",
+        "building:levels": "3",
+        "full_name": "ТЦ Каскад",
+        "name": "Каскад",
+        "name:en": "Cascade",
+        "name:ru": "Каскад",
+        "shop": "mall"
+      },
+      "coordinateType": "geometry-center"
+    },
+    {
+      "id": "osm-way-108096984",
+      "name": "Керуен",
+      "lat": 51.127790149999996,
+      "lon": 71.42530995,
+      "category": "mall",
+      "tags": [
+        "mall",
+        "internet_access",
+        "wheelchair"
+      ],
+      "description": "Торговый центр в Астане по данным OpenStreetMap. Адрес: Достық көшесі, 9. Интернет в источнике: wlan. Наличие розеток не подтверждено.",
+      "openingHours": null,
+      "wheelchair": "yes",
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/way/108096984",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "addr:city": "Астана",
+        "addr:country": "KZ",
+        "addr:housenumber": "9",
+        "addr:street": "Достық көшесі",
+        "building": "yes",
+        "building:levels": "3",
+        "internet_access": "wlan",
+        "name": "Керуен",
+        "name:en": "Keruen",
+        "name:ja": "ケルエン",
+        "name:kk": "Керуен",
+        "name:ru": "Керуен",
+        "shop": "mall",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes"
+      },
+      "coordinateType": "geometry-center"
+    },
+    {
+      "id": "osm-node-4920065767",
+      "name": "Торговый дом Азат",
+      "lat": 51.1704213,
+      "lon": 71.4122265,
+      "category": "mall",
+      "tags": [
+        "mall",
+        "wheelchair"
+      ],
+      "description": "Торговый центр в Астане по данным OpenStreetMap.",
+      "openingHours": "Mo-Su 10:00-20:00",
+      "wheelchair": "yes",
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/4920065767",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "name": "Торговый дом Азат",
+        "opening_hours": "Mo-Su 10:00-20:00",
+        "shop": "mall",
+        "wheelchair": "yes"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-way-460703779",
+      "name": "Хан Шатыр",
+      "lat": 51.132508900000005,
+      "lon": 71.4038726,
+      "category": "mall",
+      "tags": [
+        "mall",
+        "wheelchair"
+      ],
+      "description": "Торговый центр в Астане по данным OpenStreetMap. Адрес: Тұран даңғылы, 37.",
+      "openingHours": "Mo-Su,PH 10:00-23:00",
+      "wheelchair": "yes",
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/way/460703779",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "addr:city": "Астана",
+        "addr:country": "KZ",
+        "addr:housenumber": "37",
+        "addr:street": "Тұран даңғылы",
+        "building": "yes",
+        "building:levels": "5",
+        "building:roof:height": "100",
+        "int_name": "Khan Shatyr",
+        "name": "Хан Шатыр",
+        "name:de": "Khan Shatyr",
+        "name:en": "Khan Shatyr",
+        "name:ja": "ハーン・シャティア",
+        "name:ru": "Хан Шатыр",
+        "opening_hours": "Mo-Su,PH 10:00-23:00",
+        "roof:shape": "cone",
+        "shop": "mall",
+        "wheelchair": "yes",
+        "wikidata": "Q671484",
+        "wikimedia_commons": "Category:Khan Shatyry Entertainment Center",
+        "wikipedia": "en:Khan Shatyr Entertainment Center"
+      },
+      "coordinateType": "geometry-center"
+    },
+    {
+      "id": "osm-way-491522670",
+      "name": "Festival Avenue",
+      "lat": 51.12817785,
+      "lon": 71.40738745,
+      "category": "mall",
+      "tags": [
+        "mall"
+      ],
+      "description": "Торговый центр в Астане по данным OpenStreetMap. Адрес: Достық көшесі, 4.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/way/491522670",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "addr:country": "KZ",
+        "addr:housenumber": "4",
+        "addr:street": "Достық көшесі",
+        "building": "retail",
+        "building:levels": "2",
+        "name": "Festival Avenue",
+        "shop": "mall"
+      },
+      "coordinateType": "geometry-center"
+    },
+    {
+      "id": "osm-way-499328514",
+      "name": "Mega Silk Way",
+      "lat": 51.0890897,
+      "lon": 71.40733035,
+      "category": "mall",
+      "tags": [
+        "mall"
+      ],
+      "description": "Торговый центр в Астане по данным OpenStreetMap. Адрес: Қабанбай Батыр даңғылы, 62.",
+      "openingHours": "Mo-Su 10:00-22:00",
+      "wheelchair": null,
+      "website": null,
+      "phone": "7010",
+      "source": "https://www.openstreetmap.org/way/499328514",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "addr:city": "Астана",
+        "addr:country": "KZ",
+        "addr:housenumber": "62",
+        "addr:street": "Қабанбай Батыр даңғылы",
+        "air_conditioning": "yes",
+        "building": "yes",
+        "building:levels": "2",
+        "layer": "-1",
+        "name": "Mega Silk Way",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:coins": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:notes": "yes",
+        "payment:visa": "yes",
+        "phone": "7010",
+        "shop": "mall",
+        "source": "sentinel-2,MapBox",
+        "stroller": "yes",
+        "toilets": "yes"
+      },
+      "coordinateType": "geometry-center",
+      "additionalSources": [
+        "https://www.openstreetmap.org/node/4965336822"
+      ]
+    },
+    {
+      "id": "osm-way-1239171353",
+      "name": "Военно-исторический музей",
+      "lat": 51.15549835,
+      "lon": 71.43197225,
+      "category": "museum",
+      "tags": [
+        "museum"
+      ],
+      "description": "Музей в Астане по данным OpenStreetMap.",
+      "openingHours": "Mo-Su 10:00-18:00",
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/way/1239171353",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "museum": "military",
+        "name": "Тарихи-Әскери Мұражай",
+        "name:en": "Military History Museum",
+        "name:ru": "Военно-исторический музей",
+        "opening_hours": "Mo-Su 10:00-18:00",
+        "tourism": "museum"
+      },
+      "coordinateType": "geometry-center"
+    },
+    {
+      "id": "osm-way-240391776",
+      "name": "Государственный военно-исторический музей",
+      "lat": 51.155929549999996,
+      "lon": 71.4312983,
+      "category": "museum",
+      "tags": [
+        "museum"
+      ],
+      "description": "Музей в Астане по данным OpenStreetMap. Адрес: Республика даңғылы, 2.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/way/240391776",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "addr:city": "Астана",
+        "addr:country": "KZ",
+        "addr:housenumber": "2",
+        "addr:street": "Республика даңғылы",
+        "building": "yes",
+        "building:levels": "2",
+        "museum": "history",
+        "name": "Мемлекеттік әскери-тарихи музей",
+        "name:kk": "Мемлекеттік әскери-тарихи музей",
+        "name:ru": "Государственный военно-исторический музей",
+        "roof:colour": "#546776",
+        "tourism": "museum"
+      },
+      "coordinateType": "geometry-center"
+    },
+    {
+      "id": "osm-way-51431624",
+      "name": "Музей первого президента РК Н. А. Назарбаева",
+      "lat": 51.16671335,
+      "lon": 71.41903225,
+      "category": "museum",
+      "tags": [
+        "museum"
+      ],
+      "description": "Музей в Астане по данным OpenStreetMap. Адрес: Бейбітшілік көшесі, 11.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/way/51431624",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "addr:city": "Астана",
+        "addr:country": "KZ",
+        "addr:housenumber": "11",
+        "addr:street": "Бейбітшілік көшесі",
+        "building": "yes",
+        "building:levels": "7",
+        "level": "7",
+        "name": "ҚР Тұңғыш Президенті Н. Ә. Назарбаевтың мұражайы",
+        "name:ru": "Музей первого президента РК Н. А. Назарбаева",
+        "roof:colour": "#94BED7",
+        "source": "Yahoo",
+        "tourism": "museum"
+      },
+      "coordinateType": "geometry-center"
+    },
+    {
+      "id": "osm-way-240376692",
+      "name": "Музей Сакена Сейфуллина",
+      "lat": 51.171482499999996,
+      "lon": 71.4235922,
+      "category": "museum",
+      "tags": [
+        "museum"
+      ],
+      "description": "Музей в Астане по данным OpenStreetMap. Адрес: Мұхтар Әуезов көшесі, 20.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/way/240376692",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "addr:city": "Астана",
+        "addr:country": "KZ",
+        "addr:housenumber": "20",
+        "addr:street": "Мұхтар Әуезов көшесі",
+        "building": "yes",
+        "name": "Сәкен Сейфуллин музейі",
+        "name:kk": "Сәкен Сейфуллин музейі",
+        "name:ru": "Музей Сакена Сейфуллина",
+        "tourism": "museum"
+      },
+      "coordinateType": "geometry-center"
+    },
+    {
+      "id": "osm-way-963855443",
+      "name": "Назарбаев центр-2",
+      "lat": 51.1146527,
+      "lon": 71.4421493,
+      "category": "museum",
+      "tags": [
+        "museum"
+      ],
+      "description": "Музей в Астане по данным OpenStreetMap. Адрес: Әлихан Бөкейхан көшесі, 1а.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/way/963855443",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "addr:city": "Астана",
+        "addr:country": "KZ",
+        "addr:housenumber": "1а",
+        "addr:street": "Әлихан Бөкейхан көшесі",
+        "building": "yes",
+        "fee": "no",
+        "name": "Назарбаев орталығы-2",
+        "name:de": "Nasarbajew-Zentrum 2",
+        "name:en": "Nazarbayev Center 2",
+        "name:kk": "Назарбаев орталығы-2",
+        "name:ru": "Назарбаев центр-2",
+        "tourism": "museum"
+      },
+      "coordinateType": "geometry-center"
+    },
+    {
+      "id": "osm-node-4894937300",
+      "name": "Национальный музей Республики Казахстан",
+      "lat": 51.1182297,
+      "lon": 71.4693823,
+      "category": "museum",
+      "tags": [
+        "museum"
+      ],
+      "description": "Музей в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": "https://nmrk.kz/",
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/4894937300",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "name": "Қазақстан Республикасының Ұлттық Мұражайы",
+        "name:de": "Nationalmuseum der Republik Kasachstan",
+        "name:en": "National Museum of the Republic of Kazakhstan",
+        "name:ja": "国立博物館",
+        "name:pl": "Muzeum Narodowe Republiki Kazachstanu",
+        "name:ru": "Национальный музей Республики Казахстан",
+        "start_date": "2014-07-02",
+        "tourism": "museum",
+        "website": "https://nmrk.kz/",
+        "wikidata": "Q18405670",
+        "wikimedia_commons": "Category:National Museum of the Republic of Kazakhstan"
+      },
+      "coordinateType": "node"
+    },
+    {
+      "id": "osm-way-1456208624",
+      "name": "Аллея мира и согласия",
+      "lat": 51.0938123,
+      "lon": 71.41694975,
+      "category": "park",
+      "tags": [
+        "park"
+      ],
+      "description": "Парк в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/way/1456208624",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "alt_name": "Бейбітшілік пен Келісім саяжолы",
+        "leisure": "park",
+        "name": "Бейбітшілік пен Келісім аллеясы",
+        "name:kk": "Бейбітшілік пен келісім аллеясы",
+        "name:ru": "Аллея мира и согласия"
+      },
+      "coordinateType": "geometry-center"
+    },
+    {
+      "id": "osm-way-1196402246",
+      "name": "Ботанический сад",
+      "lat": 51.1061652,
+      "lon": 71.4165705,
+      "category": "park",
+      "tags": [
+        "park"
+      ],
+      "description": "Парк в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": "https://www.astanabotsad.kz/",
+      "phone": "+7 707 7051661",
+      "source": "https://www.openstreetmap.org/way/1196402246",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "leisure": "park",
+        "name": "Ботаникалық бақ",
+        "name:de": "Botanischer Garten",
+        "name:en": "Botanical Garden",
+        "name:kk": "Ботаникалық бақ",
+        "name:ru": "Ботанический сад",
+        "phone": "+7 707 7051661",
+        "start_date": "2018-07-02",
+        "website": "https://www.astanabotsad.kz/",
+        "wikidata": "Q104866948",
+        "wikimedia_commons": "Category:Astana botanical garden",
+        "wikipedia": "kk:Ботаникалық бақ (Астана)"
+      },
+      "coordinateType": "geometry-center"
+    },
+    {
+      "id": "osm-way-502046662",
+      "name": "парк «Ататюрк»",
+      "lat": 51.15210235,
+      "lon": 71.43158704999999,
+      "category": "park",
+      "tags": [
+        "park"
+      ],
+      "description": "Парк в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/way/502046662",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "leisure": "park",
+        "name": "«Ататүрік» саябағы",
+        "name:kk": "Ататүрік» саябағы",
+        "name:ru": "парк «Ататюрк»"
+      },
+      "coordinateType": "geometry-center",
+      "additionalSources": [
+        "https://www.openstreetmap.org/way/1460702136"
+      ]
+    },
+    {
+      "id": "osm-way-243041609",
+      "name": "Парк Арай",
+      "lat": 51.13393935,
+      "lon": 71.4437521,
+      "category": "park",
+      "tags": [
+        "park"
+      ],
+      "description": "Парк в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/way/243041609",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "leisure": "park",
+        "name": "Арай саябағы",
+        "name:ru": "Парк Арай"
+      },
+      "coordinateType": "geometry-center"
+    },
+    {
+      "id": "osm-way-37884583",
+      "name": "Парк влюбленных",
+      "lat": 51.13149225,
+      "lon": 71.4092097,
+      "category": "park",
+      "tags": [
+        "park"
+      ],
+      "description": "Парк в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/way/37884583",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "leisure": "park",
+        "name": "Ғашықтар саябағы",
+        "name:en": "Lovers Park",
+        "name:kk": "Ғашықтар саябағы",
+        "name:ru": "Парк влюбленных"
+      },
+      "coordinateType": "geometry-center"
+    },
+    {
+      "id": "osm-way-69232075",
+      "name": "Парк Жетысу",
+      "lat": 51.13598865,
+      "lon": 71.4384501,
+      "category": "park",
+      "tags": [
+        "park"
+      ],
+      "description": "Парк в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/way/69232075",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "barrier": "fence",
+        "int_name": "Jetisu",
+        "leisure": "park",
+        "name": "Жетісу саябағы",
+        "name:en": "Zhetysu Park",
+        "name:kk": "Жетісу саябағы",
+        "name:ru": "Парк Жетысу",
+        "wikidata": "Q104866925",
+        "wikipedia": "ru:Жетысу (парк)"
+      },
+      "coordinateType": "geometry-center"
+    },
+    {
+      "id": "osm-way-243041606",
+      "name": "Президентский парк",
+      "lat": 51.113398000000004,
+      "lon": 71.44476850000001,
+      "category": "park",
+      "tags": [
+        "park"
+      ],
+      "description": "Парк в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/way/243041606",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "int_name": "Prezïdent sayabağı",
+        "leisure": "park",
+        "name": "Президент саябағы",
+        "name:de": "Präsidentenpark",
+        "name:en": "Presidential Park",
+        "name:kk": "Президент саябағы",
+        "name:pl": "park Prezydencki",
+        "name:ru": "Президентский парк"
+      },
+      "coordinateType": "geometry-center"
+    },
+    {
+      "id": "osm-way-112177946",
+      "name": "Президентский парк",
+      "lat": 51.124832299999994,
+      "lon": 71.45792355,
+      "category": "park",
+      "tags": [
+        "park"
+      ],
+      "description": "Парк в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/way/112177946",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "leisure": "park",
+        "name": "Президент саябағы",
+        "name:de": "Präsidentenpark",
+        "name:en": "President Park",
+        "name:kk": "Президент саябағы",
+        "name:ru": "Президентский парк"
+      },
+      "coordinateType": "geometry-center"
+    },
+    {
+      "id": "osm-way-230358854",
+      "name": "Сквер",
+      "lat": 51.127997,
+      "lon": 71.42357055,
+      "category": "park",
+      "tags": [
+        "park"
+      ],
+      "description": "Парк в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/way/230358854",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "leisure": "park",
+        "name": "Сквер"
+      },
+      "coordinateType": "geometry-center"
+    },
+    {
+      "id": "osm-way-1428964223",
+      "name": "Сквер Дворца Жастар",
+      "lat": 51.17032585,
+      "lon": 71.42694405,
+      "category": "park",
+      "tags": [
+        "park"
+      ],
+      "description": "Парк в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/way/1428964223",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "leisure": "park",
+        "name": "Жастар сарайы алаңы",
+        "name:en": "Youth Palace Square",
+        "name:kk": "Жастар сарайы алаңы",
+        "name:ru": "Сквер Дворца Жастар"
+      },
+      "coordinateType": "geometry-center"
+    },
+    {
+      "id": "osm-way-1428966977",
+      "name": "Сквер Музея первого президента",
+      "lat": 51.16651795,
+      "lon": 71.41765945,
+      "category": "park",
+      "tags": [
+        "park"
+      ],
+      "description": "Парк в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/way/1428966977",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "leisure": "park",
+        "name": "Тұңғыш Президент мұражайының алаңы",
+        "name:en": "Square of the First President Museum",
+        "name:kk": "Тұңғыш Президент мұражайының алаңы",
+        "name:ru": "Сквер Музея первого президента"
+      },
+      "coordinateType": "geometry-center"
+    },
+    {
+      "id": "osm-way-262166875",
+      "name": "Сквер шахматистов",
+      "lat": 51.1648537,
+      "lon": 71.42655415,
+      "category": "park",
+      "tags": [
+        "park"
+      ],
+      "description": "Парк в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/way/262166875",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "leisure": "park",
+        "name": "Сквер шахматистов",
+        "name:en": "Chess Square",
+        "name:kk": "Шахматшылар саябағы"
+      },
+      "coordinateType": "geometry-center"
+    },
+    {
+      "id": "osm-way-1363058986",
+      "name": "Триатлон парк",
+      "lat": 51.13527655,
+      "lon": 71.44977795,
+      "category": "park",
+      "tags": [
+        "park"
+      ],
+      "description": "Парк в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/way/1363058986",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "addr:city": "Astana",
+        "int_name": "Trïatlon sayabağı",
+        "leisure": "park",
+        "name": "Триатлон саябағы",
+        "name:de": "Triathlonpark",
+        "name:en": "Triathlon park",
+        "name:kk": "Триатлон саябағы",
+        "name:ru": "Триатлон парк"
+      },
+      "coordinateType": "geometry-center"
+    },
+    {
+      "id": "osm-way-1467797207",
+      "name": "NU Park",
+      "lat": 51.087269899999995,
+      "lon": 71.3994394,
+      "category": "park",
+      "tags": [
+        "park"
+      ],
+      "description": "Парк в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/way/1467797207",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "leisure": "park",
+        "name": "NU Park"
+      },
+      "coordinateType": "geometry-center"
+    },
+    {
+      "id": "osm-node-2691137163",
+      "name": "Gymboree",
+      "lat": 51.1289248,
+      "lon": 71.4220016,
+      "category": "playground",
+      "tags": [
+        "playground"
+      ],
+      "description": "Детская площадка в Астане по данным OpenStreetMap.",
+      "openingHours": null,
+      "wheelchair": null,
+      "website": null,
+      "phone": null,
+      "source": "https://www.openstreetmap.org/node/2691137163",
+      "fetchedAt": "2026-10-19T18:39:35.734Z",
+      "osmTags": {
+        "amenity": "childcare",
+        "leisure": "playground",
+        "name": "Gymboree"
+      },
+      "coordinateType": "node"
+    }
+  ]
+}
